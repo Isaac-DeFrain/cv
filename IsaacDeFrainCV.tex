@@ -1,0 +1,429 @@
+%%%%%%%%%%%%%%%%% PREAMBLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Change the font size of your document - 10pt, 12.1pt, etc.
+\documentclass[letterpaper,10pt,oneside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{hyperref}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+
+\usepackage{graphicx}
+\graphicspath{ {images/}} %upload your signature to this file
+%Change the margins to fit your CV/resume content
+\usepackage[left=0.5in, right=0.5in, bottom=1in, top=1in]{geometry}
+
+%Skype information - include your Skype name for a link to add you on Skype
+%\newcommand*{\Skype}{\href{skype:skype name?add}{isaac.defrain}} 
+%\newcommand{\Absender}[1][\normalsize]{\Skype} 
+
+%Changes the page numbers - {arabic}=arabic numerals, {gobble}=no page numbers, {roman}=Roman numerals
+\pagenumbering{gobble}
+
+%%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%% NAME OF APPLICANT %%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\Huge{\textbf{Isaac DeFrain}}
+\end{center}
+
+\begin{center}
+\noindent \begin{tabular}{l}
+\Large{Blockchain, Functional Programming \& Formal Verification} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{-2ex}
+%\hline
+\normalsize
+
+%%%%%%%%%%%%%%%%% CONTACT INFORMATION %%%%%%%%%%%%%%%%%
+
+\begin{center}
+\begin{minipage}{0.3\textwidth}
+\vfill
+5555 Childs Ave \\
+Cincinnati, OH 45248 \\
+Phone: +1 (954) 319-6321
+\vfill
+\end{minipage}
+\begin{minipage}{0.35\textwidth}
+\begin{tabular}{@{} l l}
+Email: & \href{mailto:isaacdefrain@gmail.com}{isaacdefrain@gmail.com} \\
+Website: & \href{https://www.quantifiertech.com}{www.quantifiertech.com} \\
+GitHub: & \href{https://github.com/Isaac-DeFrain?tab=repositories}{Isaac-DeFrain} \\
+LinkedIn: & \href{https://www.linkedin.com/in/isaac-defrain-a4046b65/}{Isaac DeFrain}
+\end{tabular}
+\end{minipage}
+\end{center}
+
+%%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The main body is contained in a tabular environment. To move sections onto the next page, simply end the tabular environment and begin a new tabular environment.
+
+\begin{center}
+\emph{I have an insatiable passion for functional programming and realizing the full scope and vision of blockchain} \\
+\emph{technology, specifically regarding decentralization and the application of formal verification to this space.}
+\end{center}
+
+\vspace{0.1in}
+
+\noindent \begin{tabular}{@{} l l}
+ \Large{University} & \textbf{Kent State University} \\
+ \Large{Education} & A.B.D. Pure Mathematics, 2018 \\
+ \hspace{1.1in} & M.A. Pure Mathematics, 2012 \\
+ & \\
+ & \textbf{Harriet L. Wilkes Honors College, Florida Atlantic University} \\
+ & B.A. Mathematics and Physics, Minor: Chemistry, 2010 \\
+ & Thesis: The Alspach Norm in Classifying Complemented Subspaces of $L_p, p>2$ \\
+\end{tabular}
+
+\vfill
+
+\noindent \begin{tabular}{@{} l l}
+ \Large{Independent} & \textbf{The Type Astronaut's Guide to Shapeless} (\href{https://books.underscore.io/shapeless-guide/shapeless-guide.html}{book}), Jul 2022 - present \\
+ \Large{Study} & \textbf{Building Distributed Systems with Stateright} (\href{https://www.stateright.rs/title-page.html}{book}), Jun 2022 - present \\
+ \hspace{1.1in} & \textbf{Asynchronous Programming in Rust} (\href{https://github.com/rust-lang/async-book}{book}), Jun 2022 - present \\
+ & \textbf{Real World OCaml} (\href{https://dev.realworldocaml.org/index.html}{book}), Jun 2020 - Aug 2020 \\
+ & \textbf{Lambda-Calculus and Combinators} (Hindley \& Sheldon), Mar 2020 - Aug 2020 \\
+% & \textbf{Building an Application with Functional Haskell} (Packt - Udemy), Mar 2020 \\
+% & \textbf{\href{https://fstar-lang.org/tutorial/}{F* Tutorial}}, Oct 2020 - present \\
+% & \textbf{Real World Haskell} (Bryan O'Sullivan, et al), Sep 2020 - present \\
+% & \textbf{The Rust Programming Language} (Dmitri Nesteruk - Udemy), Mar 2020 - May 2020 \\
+% & \textbf{Haskell: Functional Programming and Haskell} (Packt - Udemy), Mar 2020 - Jun 2020 \\
+% & \textbf{Advanced Scala and Functional Programming} (Rock the JVM - Udemy), Jan 2020 - May 2020 \\
+% & \textbf{Category Theory for Programmers I - III} (Bartosz Milewski), Nov 2019 - March 2020 \\
+% & \textbf{Programming with Categories} (Fong, Spivak, \& Milewski - MIT), Jan 2020 \\
+% & \textbf{System Validation I - IV} (Jan Frisco Groote - EIT Digital), Mar 2019 - Apr 2021 \\
+% & \textbf{K Framework tutorial} (Grigore Rosu - Univ of Illinois, Urbana-Chanpagne), Oct 2018 - Feb 2019 \\
+% & \textbf{Programming Languages A} (Dan Grossman - UWash), Nov 2018 - Dec 2018 \\
+ & \textbf{Cryptography I} (Dan Boneh - Stanford), Apr 2018 - Jul 2018 \\
+\end{tabular}
+
+\vfill
+
+\noindent \begin{tabular}{@{} l l}
+ \Large{Work} & \textbf{Onomy Protocol, TLA+ \& Formal Specification Expert}, Mar 2022 - Jun 2022 \\
+ \Large{Experience} & \emph{Wrote formal specs for Onomy Protocol's proprietary consensus algorithms in TLA+} \\
+ \hspace{1.1in} & \emph{Exhaustively tested and verified specification properties using model checking} \\
+ & \emph{Led the translation of TLA+ specifications into Rust implementations} \\
+ & \emph{Byzantinzed non-BFT algorithms} (\href{https://github.com/Isaac-DeFrain/bft_specs}{bft-specs}) \\
+ & \\
+% Viable Systems
+ & \textbf{Viable Systems (TezEdge), OCaml \& Formal Verification Developer}, Dec 2020 - Mar 2022 \\
+ & \emph{Built specification conformance tools to verify our implementations matched our specifications} (\href{https://github.com/Isaac-DeFrain?tab=repositories&q=&type=&language=tla&sort=}{tool}) \\
+ & \emph{Wrote TLA+ specifications for various parts of the Tezos blockchain and node including everything} \\
+ & \emph{from P2P handshaking protocols to task schedulers to the Tenderbake consensus algorithm} (\href{https://github.com/tezedge/tezedge-specification}{specs}) \\
+ & \emph{Led the translation of TLA+ specifications into Rust implementations} \\
+ & \emph{Built proofs of concepts in OCaml} (\href{https://github.com/Isaac-DeFrain/liveness-checking}{liveness-checking} and \href{https://github.com/Isaac-DeFrain/node-debugger}{node-debugger}) \\
+ & \\
+% TontineTrust
+% & \textbf{Tontine Trust, Haskell Developer \& Model Builder}, Aug 2020 - Dec 2020 \\
+% & \emph{Maintained and extended the internal Haskell libraries} \\
+% & \emph{Designed and analyzed models written in R} \\
+% & \\
+% Wyzant
+ & \textbf{Wyzant, Computer Science, Programming, \& Mathematics Tutor}, Mar 2020 - Dec 2020 \\
+ & \emph{Provided excellent one-on-one online learning sessions in many areas including:} \\
+ & \emph{functional programming, theory of computation, lambda calculus and dependent types, temporal logic} \\
+ & \\
+ & \textbf{RChain, Core Protocol, Smart Contract \& Verification Developer}, Dec 2018 - Aug 2022 \\
+ & \emph{Maintained and extended the RChain core protocol} (\href{https://github.com/rchain/rchain}{rchain}) \\
+ & \emph{Wrote Rholang smart contracts for RChain's Proof of Stake consensus and other features} \\
+ & \emph{Formally specified CBC Casper and RChain's implementation in TLA+} (\href{https://github.com/Isaac-DeFrain/TLAplus/tree/master/Casper}{casper}) \\
+ & \emph{Developed the formally verified implementation of Rholang in K Framework} (\href{https://github.com/Isaac-DeFrain/KFramework/tree/master/Languages/GroundedRho}{rho}) \\
+ & \\
+\end{tabular}
+
+\vfill
+
+\newpage
+
+\noindent \begin{tabular}{@{} l l}
+ \Large{Personal} & \href{https://github.com/Isaac-DeFrain?tab=repositories&q=&type=&language=ocaml&sort=}{\textbf{OCaml}} \\
+ \Large{Projects} & \emph{Simple compiler}: compiler, interpreter, and code optimizer for the simple tinyL language (\href{https://github.com/Isaac-DeFrain/simple-compiler}{repo}) \\
+ \hspace{1.1in} & \emph{Dependent}: implementation of dependently typed lambda calculus with proof verifier (\href{https://github.com/Isaac-DeFrain/dependent}{repo}) \\
+% & \emph{Todo}: todo list application exploring first-class modules, functors, and several libraries (\href{https://github.com/Isaac-DeFrain/Todo}{repo}) \\
+ & \\
+ & \textbf{Java,} \textbf{Python \&} \href{https://github.com/Isaac-DeFrain?tab=repositories&q=&type=&language=tla&sort=}{\textbf{TLA+}} \\
+ & \emph{Model-based trace-checking}: tooling for checking conformance of program traces against specs (\href{https://github.com/Isaac-DeFrain/model-based-trace-checking}{repo}) \\
+ & \\
+ & \href{https://github.com/Isaac-DeFrain?tab=repositories&q=&type=&language=haskell&sort=}{\textbf{Haskell}} \\
+ & \emph{PassGenMan}: a simple password generator and manager (\href{https://github.com/Isaac-DeFrain/PassGenMan}{repo}) \\
+ & \emph{Thompson}: automata/regex equivalence checker (\href{https://github.com/Isaac-DeFrain/Thompson}{repo}) \\
+% & \\
+% & \textbf{Scala} \\
+% & Recursive descent parser and regex pattern matcher using matching on parse trees (\href{https://github.com/Isaac-DeFrain/RecursiveDescentParser}{link}) \\
+\end{tabular}
+
+\vfill
+
+%\noindent \begin{tabular}{@{} l l}
+% \hspace{1.1in} & \textbf{Mathematical Sciences, University of Wisconsin-Eau Claire} \\
+% & Classifying complemented subspaces of $L_P, p>2$, 2009 \\
+%\end{tabular}
+
+\noindent \begin{tabular}{@{} l l}
+ \Large{Skills} & Apalache, OCaml, TLA+, Scala, Rust, Haskell, Python, Java, Standard ML, K Framework, \\
+ \hspace{1.1in} & git/GitHub, Docker, Linux (debian), JIRA, \LaTeX, blockchain, concurrency, process calculi \\
+\end{tabular}
+
+\vfill
+
+\noindent \begin{tabular}{@{} l l}
+ \Large{Publications} & \href{https://link.springer.com/chapter/10.1007/978-1-4939-7543-3_7}{\textbf{Chebyshev polynomials associated with a system of continua}} \\
+ \hspace{1.1in} & New Trends in Approximation Theory, Fields Institute Communications 81, \\
+ & Springer-Verlag 2018 \\
+\end{tabular}
+
+\vfill
+
+\noindent \begin{tabular}{@{} l l}
+ \Large{Conference} & \href{https://www.youtube.com/watch?v=WgO2hHt2GrQ}{\textbf{TLA+ Formal Specification of Bootstrapping}} \\
+ \Large{Talks \&} & \emph{Nomadic Labs Research Seminar \#15, May 25, 2021} \\
+ \Large{Posters} & \\
+ \hspace{1.1in} & \textbf{Chebyshev polynomials on a continuum in the complex plane}  \\
+ & \emph{Northeastern Analysis Meeting}, SUNY Brockport, October 2016 \\
+ & \\
+ & \textbf{Chebyshev polynomials on a system of continua} \\
+ & \emph{New Trends in Approximation Theory}, The Fields Institute, Toronto, July 2016 \\
+ & \\
+ & \textbf{Chebyshev polynomials on a system of continua} \\
+ & \emph{15$^{th}$ International Conference on Approximation Theory} \\
+ & Menger Hotel, San Antonio, May 2016 \\
+ & \\
+ & \textbf{Chebyshev polynomials on compact sets in the complex plane} (poster) \\
+ & \emph{Graduate Research Symposium}, Kent State University, April 2016 \\
+% & \\
+% & \textbf{H\"{o}rmander existence theorem and a conjecture on O-S convex bodies} (poster) \\
+% & \emph{Informal Analysis Seminar}, University of Michigan, Ann Arbor, October 2014 \\
+\end{tabular}
+
+\vfill
+
+\noindent \begin{tabular}{@{} l l}
+ \Large{Mathematics} & \textbf{Mathematical Sciences, Kent State University}, Fall 2013 - Spring 2018 \\
+ \Large{Research} & Advisor: Dr. Artem Zvavitch, 2017-2018 \\
+ \hspace{1.1in} & Project: Almost Isometric Embeddings of Finite Metric Spaces \\
+\end{tabular}
+
+\vfill
+
+\noindent \begin{tabular}{@{} l l}
+ \hspace{1.1in} & Advisor: Dr. Volodomyr Andreievskii, 2015-2017 \\
+ & Project: Potential Theory and Chebyshev Polynomials on Quasiconformal Domains \\
+\end{tabular}
+
+\vfill
+
+\noindent \begin{tabular}{@{} l l}
+ \hspace{1.1in} %& Graduate Research Assistant, 2014-2015 \\
+ & Advisor: Dr. Fedor Nazarov, 2014-2015 \\
+ & Project: Conformal Invariants and Geometric Function Theory, 2014-2015 \\
+ & Project: H\"{o}rmander Existence Theorem and Plurisubharmonic Functions, 2013-2014 \\
+ & \\
+\end{tabular}
+
+\vfill
+
+\noindent \begin{tabular}{@{} l l}
+ \Large{Developer}  & \textbf{Blockchain and Rholang Workshop} \\
+ \Large{Education} & Blockchain AI Center, Gimcheon, South Korea, Dec 10-14, 2018 \\
+ \hspace{1.1in} & \emph{Prepared and taught 5-day workshop covering everything from PoW/PoS and computational} \\
+ & \emph{calculi basics to writing and depolying Rholang smart contracts using Cryptofex and RNode} \\
+ & \\
+ &  \textbf{RChain Cooperative} \\
+ & Technical Consultant, August 2018 - November 2018 \\
+ & \emph{Technical blog writing explaining mathematical foundations of RChain's blockchain technology} \\
+\end{tabular}
+
+\vfill
+
+% Math research
+
+\newpage
+
+\noindent \begin{tabular}{@{} l l}
+ \Large{Workshops} & \textbf{Mathematical Sciences Research Institute, Berkley, CA} \\
+ \hspace{1.1in} & \emph{Workshop on Mathematical General Relativity}, July 2012 \\
+\end{tabular}
+
+\vfill
+
+\noindent \begin{tabular}{@{} l l}
+ \Large{Course} & \textbf{Center for Talented Youth, Johns Hopkins University} \\
+ \Large{Development} & Cryptology, Summer 2017, 2018 \\
+ \hspace{1.1in} & \emph{Taught students about blockchain, consensus, and smart contracts} \\
+% & \\
+% & \textbf{Kent State University} \\
+% & Modeling Algebra, Summer 2015 \\
+\end{tabular}
+
+\vfill
+
+\noindent \begin{tabular}{@{} l l}
+ \Large{Teaching}  & \textbf{Center for Talented Youth, Johns Hopkins University} \\
+ \Large{Experience} & Instructor, Cryptology, Summer 2018, CAR \\
+ \hspace{1.1in} & Instructor, Cryptology, Summer 2017, CAR \\
+ & Teaching Assistant, Mathematical Logic, Summer 2016, JHU \\
+ & \\
+ & \textbf{Mathematical Sciences, Kent State University} \\
+ & Instructor, Analytic Geometry and Calculus II, Fall 2017 \\
+ & Instructor, Analytic Geometry and Calculus II, Spring 2017 \\
+ & Instructor, Modeling Algebra, Fall 2016 \\
+% & Teaching Assistant, Modeling Algebra Plus, Fall 2016 \\
+ & Instructor, Analytic Geometry and Calculus I, Spring 2016 \\
+ & Instructor, Modeling Algebra, Fall 2015 \\
+ & Instructor, Analytic Geometry and Calculus II, Spring 2014 \\
+ & Instructor, Analytic Geometry and Calculus I, Fall 2013 \\
+ & Instructor, Analytic Geometry and Calculus I, Spring 2013 \\
+ & Instructor, Calculus for Life Sciences, Fall 2012 \\
+ & Instructor, Modeling Algebra, Spring 2012 \\
+ & Instructor, Trigonometry, Fall 2011 \\
+ & Instructor, Algebra for Calculus, Spring 2011 \\
+ & Instructor, Algebra for Calculus, Fall 2010 \\
+% & \\
+% & \textbf{Timken Early College High School} \\
+% & Instructor, College Algebra, Fall 2017 \\
+% & \\
+% & \textbf{Stark State College} \\
+% & Instructor, Statistics, Fall 2017 \\
+\end{tabular}
+
+\vfill
+
+\noindent \begin{tabular}{@{} l l}
+ \Large{Mentoring} & \textbf{Project advisor, Choose Ohio First Scholarship} \\
+ \hspace{1.1in} & Spring 2018: The Geometry of the Power Rule (\emph{Award of Excellence}) \\
+ & Spring 2012: Applications of the Golden Ratio \\
+ & Spring 2011: X-ray Crystallography \& the Fourier Tranform \\
+ \hspace{1.1in} & \\
+% & \textbf{Timken Early College High School Math Club} \\
+% & Advised and helped students prepare for mathematics competitions, Fall 2017 \\
+% & \\
+ & \textbf{Undergraduate Research Experience, Kent State University} \\
+ & Graduate student mentor, Summer 2015 \\
+\end{tabular}
+
+\vfill
+
+\noindent \begin{tabular}{@{} l l}
+ \Large{Volunteer} & \textbf{Category Theory \& Functional Programming Collaborative Learning Coordinator} \\
+ \Large{Work} & Group meeting biweekly to discuss category theory and functional programming \\
+ \hspace{1.1in} & Check out our \href{https://github.com/Isaac-DeFrain/Cats-FunProg}{GitHub repo} \\
+% & \\
+% & \textbf{Route Setting, Nosotros Rock Climbing Gym, Lakewood, OH} \\
+% & Set challenging, interesting, and exciting boulder problems twice a month. \\
+ & \\
+ & \textbf{Adaptive Ascents, Vertical Adventures, Columbus, OH} \\
+ & Provide rock climbing assistance to kids with developmental disabilities \\
+% & \\
+% & \textbf{Graduate Student Seminar Coordinator} \\
+% & Kent State University, Department of Mathematical Sciences, Fall 2012 - Spring 2013 \\
+\end{tabular}
+
+\vfill
+
+% & Graduate student ambassador, Kent State University Graduate Studies, \\
+% & Fall 2016 - Spring 2017 \\
+
+%%%%%%%%%%%%%%%%% REFERENCES %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \begin{tabular}{@{} l l l}
+ \Large{References} & Tomislav Grospi\'{c} & \hspace{.5in} Joshy Orndorff \\
+ \hspace{1.1in} & Software Developer & \hspace{.5in} Developer and Educator \\
+ & RChain Cooperative & \hspace{.5in} Parity Technologies \\
+ & \small{\href{mailto:grospic@gmail.com}{grospic@gmail.com}} &  \hspace{.5in} \small{\href{mailto:admin@joshorndorff.com}{admin@joshorndorff.com}} \\
+ & \small{+38595\,8434\,639} & \hspace{.5in} \small{+1\,(419)\,455-6749} \\
+ & \small{Discord: tgrospic\#9887} & \hspace{.5in} \small{Discord: JoshyOrndorff\#4150} \\
+&& \\
+% & Corey Lyons & \hspace{.5in} Jenya Soprunova \\
+% &  & \hspace{.5in} Associate Professor \\
+% &  & \hspace{.5in} Mathematical Sciences \\
+% &  & \hspace{.5in} Kent State University \\
+% &  & \hspace{.5in} \small{\href{mailto:soprunova@math.kent.edu}{soprunova@math.kent.edu}} \\
+% &  & \hspace{.5in} \small{+1\,(330)\,672-9086} \\
+%&& \\
+% Melody Tankersley
+% Division of Graduate Studies
+% Kent State University
+% \small{\href{mailto:mtankers@kent.edu}{mtankers@kent.edu}}
+% \small{+1\,(330)\,672-8613}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% & Dmitry Ryabogin & Fedor Nazarov \\
+% & Mathematical Sciences & Mathematical Sciences \\
+% & Kent State University & Kent State University \\
+% & \small{\href{mailto:dryabogi@kent.edu}{dryabogi@kent.edu}} & \small{\href{mailto:fnazarov@kent.edu}{fnazarov@kent.edu}} \\
+% & \small{+1\,(330)\,672-9085} & \small{+1\,(330)\,672-9013} \\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  & Corey Lyons & Patrick Starvaggi \\
+% & Mathematics & Mathematics \\
+% & Colorado State University - Pueblo &  Southern Connecticut State University \\
+%  & \small{\href{mailto:corey.lyons@csupueblo.edu}{corey.lyons@csupueblo.edu} & %\small{\href{mailto:starvaggip1@southernct.edu}{starvaggip1@southernct.edu}} \\
+% & \small{+1\,(719)\,549-2482} & \small{+1\,(203)\,392-5439} \\
+% Enyinda Onunwor
+% Mathematical Sciences
+%  \small{\href{mailto:eonunwor@starkstate.edu}{eonunwor@starkstate.edu}}
+% \small{+1\,(330)\,494-6170 ext. 4920}
+
+\end{tabular}
+
+\vfill
+
+
+%\clearpage
+%\setlength\parindent{0cm}
+%\pagenumbering{gobble} %cover letter should be one page, {gobble}=no page number
+
+
+
+%\begin{flushright}
+% \today                           \\
+% \vspace{1em}                              
+% Home University            \\
+% Home Department                  \\
+% Street Address                       \\
+% City, State. 12345-67899   \\
+% Phone: +1 (123) 456-7899         \\
+%\href{mailto:john.smith@email.com}{john.smith@email.com}  \\ %insert your email address here for a clickable link
+%\end{flushright}
+
+
+%\begin{flushleft}
+% \textbf{Faculty Search Committee}         \\
+% Name of University \\
+%Name of Department                  \\
+%Address of Department \\
+%City, State. Zip Code
+%\end{flushleft}
+
+%\vspace{2em}
+
+%Dear Sir or Madam, \\
+
+%\vspace{1em}
+%\onehalfspacing
+
+%My name is John Smith and I'm applying to the academic position in this subject at the Name of University. I have experience teaching something and something else and my research focuses on this and that. I completed my Ph.D. in this subject in September 2015 at my alma mater.
+
+%\vspace{1em}
+
+%My educational background is in this and that at the former university along with an earned Master's and Ph.D. degree in this recent subject at this alma mater. I have taught this, that, and everything else. My research is in this area, that area, and another area still.
+
+%\vspace{1em}
+
+%My dissertation advisor, Professor Head Adviser, and committee members Professor Two and Professor Three have been instrumental throughout my time at Home University. Please feel free to contact me with any questions.
+
+%\vspace{1em}
+
+%\begin{flushright}
+%Sincerely, \\
+%\vspace{1em} 
+%\includegraphics[scale=0.4]{Phillips} \\ %insert your own signature here
+%\vspace{1em} 
+%John Smith \\
+%\end{flushright}
+
+\end{document}
+
